@@ -15,7 +15,7 @@ void TestCase() {
 	// 1st subarray = {a, b, c}
 	// 2nd subarray = {b, c, a}
 	// 3rd subarray = {c, a, b}
-	// MEX(a, b, c) = MEX(b, c, a) = MEX(c, a, b) = ...
+	// MEX(a, b, c) = MEX(b, c, a) = MEX(c, a, b) = MEX(a, b, c)
 	// note: it is impossible to do if the value of K (subarray size) < X (MEX)
 	vector<int> a(n, 0);
 	int val = 0;
